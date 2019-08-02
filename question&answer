@@ -1,0 +1,11 @@
+• What is a detail view controller?
+    A detail view controller is a regular view controller configured to show the details of a particular 
+    value chosen from a TableViewController.
+    
+• What does a segue do? How do you use it and where?
+    A segue moves the next ViewController onto the next. You use it by control-click-and-dragging from the 
+     ViewController (or TableViewCell) to the ViewController you want to show when the segue function is called.
+     
+• What are other ways your detail view controller could get its information? Why use segues?
+• Why must you conditionally cast custom cell types when using them with table views? How do you do this?
+• Why must you conditionally cast detail view controller types when using them with segues? How do you do this?

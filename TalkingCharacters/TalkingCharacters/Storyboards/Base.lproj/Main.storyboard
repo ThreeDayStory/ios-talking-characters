@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Table View Controller-->
         <scene sceneID="GJ7-Mp-Puw">
             <objects>
                 <tableViewController id="nbn-Qj-H5h" customClass="TableViewController" customModule="TalkingCharacters" customModuleProvider="target" sceneMemberID="viewController">
@@ -50,7 +50,7 @@
                             <outlet property="delegate" destination="nbn-Qj-H5h" id="rtJ-bL-8Ig"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="mrM-dF-k0V"/>
+                    <navigationItem key="navigationItem" id="mrM-dF-k0V"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zI6-Tj-FQz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -71,7 +71,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Dc4-bg-Ewz">
-                                <rect key="frame" x="20" y="224" width="374" height="618"/>
+                                <rect key="frame" x="20" y="224" width="374" height="518"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -80,7 +80,7 @@
                             <constraint firstItem="Dc4-bg-Ewz" firstAttribute="leading" secondItem="6cI-mR-xxu" secondAttribute="leading" constant="20" id="DAR-Qk-01R"/>
                             <constraint firstItem="Dc4-bg-Ewz" firstAttribute="centerX" secondItem="cCk-v6-bBM" secondAttribute="centerX" id="GcK-29-lwM"/>
                             <constraint firstItem="FOg-XP-7Oo" firstAttribute="top" secondItem="6cI-mR-xxu" secondAttribute="top" constant="40" id="UuH-36-fKS"/>
-                            <constraint firstItem="6cI-mR-xxu" firstAttribute="bottom" secondItem="Dc4-bg-Ewz" secondAttribute="bottom" constant="20" id="YIz-jU-fJ5"/>
+                            <constraint firstItem="6cI-mR-xxu" firstAttribute="bottom" secondItem="Dc4-bg-Ewz" secondAttribute="bottom" constant="120" id="YIz-jU-fJ5"/>
                             <constraint firstItem="6cI-mR-xxu" firstAttribute="trailing" secondItem="Dc4-bg-Ewz" secondAttribute="trailing" constant="20" id="uLw-N0-22Q"/>
                             <constraint firstItem="Dc4-bg-Ewz" firstAttribute="top" secondItem="FOg-XP-7Oo" secondAttribute="bottom" constant="60" id="vaR-9q-cSU"/>
                         </constraints>

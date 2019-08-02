@@ -60,17 +60,49 @@
 		9570DAEA22F3C756004515EA /* TalkingCharacters */ = {
 			isa = PBXGroup;
 			children = (
+				9570DB0522F3E05C004515EA /* Model */,
+				9570DB0622F3E067004515EA /* View Controllers */,
+				9570DB0722F3E072004515EA /* Storyboards */,
 				9570DAEB22F3C756004515EA /* AppDelegate.swift */,
-				9570DAEF22F3C756004515EA /* Main.storyboard */,
+				9570DB0822F3E083004515EA /* Resources */,
 				9570DAF222F3C758004515EA /* Assets.xcassets */,
-				9570DAF422F3C758004515EA /* LaunchScreen.storyboard */,
 				9570DAF722F3C758004515EA /* Info.plist */,
-				9570DAFD22F3C801004515EA /* TableViewCell.swift */,
-				9570DAFF22F3C810004515EA /* TableViewController.swift */,
-				9570DB0122F3C840004515EA /* DetailViewController.swift */,
-				9570DB0322F3C856004515EA /* Model.swift */,
 			);
 			path = TalkingCharacters;
+			sourceTree = "<group>";
+		};
+		9570DB0522F3E05C004515EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9570DB0322F3C856004515EA /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9570DB0622F3E067004515EA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9570DB0122F3C840004515EA /* DetailViewController.swift */,
+				9570DAFF22F3C810004515EA /* TableViewController.swift */,
+				9570DAFD22F3C801004515EA /* TableViewCell.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9570DB0722F3E072004515EA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9570DAEF22F3C756004515EA /* Main.storyboard */,
+				9570DAF422F3C758004515EA /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9570DB0822F3E083004515EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -40,7 +40,8 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="Qlv-vO-EWH" kind="show" id="2WY-RF-Bjz"/>
+                                    <outlet property="characterImageView" destination="0UN-rq-Kdf" id="fLP-lk-9un"/>
+                                    <segue destination="Qlv-vO-EWH" kind="show" identifier="ShowDetailView" id="2WY-RF-Bjz"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -53,12 +54,12 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zI6-Tj-FQz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="233" y="169"/>
+            <point key="canvasLocation" x="193" y="169"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="RyN-C9-gDY">
             <objects>
-                <viewController id="Qlv-vO-EWH" sceneMemberID="viewController">
+                <viewController id="Qlv-vO-EWH" customClass="DetailViewController" customModule="TalkingCharacters" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cCk-v6-bBM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -85,6 +86,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6cI-mR-xxu"/>
                     </view>
+                    <connections>
+                        <outlet property="characterImageViewDetail" destination="Dc4-bg-Ewz" id="Xyg-zz-6iw"/>
+                        <outlet property="characterNameLabel" destination="FOg-XP-7Oo" id="sH6-US-pNT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Il-VK-mXq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
